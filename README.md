@@ -21,13 +21,14 @@ Ahora, partiendo de el código que tenemos del apartado a hemos de añadir un at
 
 # Ejercicio c) Puzzle
 En este ejercicio nos piden únicamente qué mensajes muestran el código que nos dan, los cuáles son los siguiente:
+```
 <class '__main__.A'>
 False
 0
 1
 2
 3
-
+```
 # Ejercicio d) Logger
 Para el último ejercicio nos piden que creemos una función a la que tras introducir un texto y un número (x) para que cree un archivo de texto en el que escribirá el texto x veces entre otras cosas. El código propuesto es el siguiente:
 ```
