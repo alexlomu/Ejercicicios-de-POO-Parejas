@@ -7,7 +7,6 @@ Para esta entrega hemos tenido que realizar diversos ejercicios que vienen resue
 Para este ejercicio primero hemos tenido que crear una clase llamada Palindromo en la que definiriamos una función que al introducirla con un texto nos devolvería un boleano o otro dependiendo si el texto es o no un palíndromo.
 El UML desarrollado para el ejercicio es:
 ![uml a](https://user-images.githubusercontent.com/91721507/159481810-55e9d7c3-286d-4d30-8920-9a1ed34d6197.PNG)
-
 El código corresponiente es el siguiente:
 ```
 class Palindromo:
@@ -19,10 +18,10 @@ class Palindromo:
 ```
 
 # Ejercicio b) Palíndromo - método de instancia
-Ahora, partiendo de el código que tenemos del apartado a hemos de añadir un atributo que se inicializará en el constructor, además crearemos una nueva función que pruebe si el atributo de la instancia es un palíndromo. El código propuesto es el siguiente:
+Ahora, partiendo de el código que tenemos del apartado a hemos de añadir un atributo que se inicializará en el constructor, además crearemos una nueva función que pruebe si el atributo de la instancia es un palíndromo. 
 El UML desarrollado para el ejercicio es:
 ![uml b](https://user-images.githubusercontent.com/91721507/159481864-41c4b417-41c6-445e-b746-268d48b2a0dd.PNG)
-
+El código propuesto es el siguiente:
 ```
 class Palindromo:
     global entrada
