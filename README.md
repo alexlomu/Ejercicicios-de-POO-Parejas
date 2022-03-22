@@ -66,7 +66,8 @@ False
 
 # Ejercicio d) Logger
 Para el último ejercicio nos piden que creemos una función a la que tras introducir un texto y un número (x) para que cree un archivo de texto en el que escribirá el texto x veces entre otras cosas. El UML desarrollado para el ejercicio es:
-![uml d](https://user-images.githubusercontent.com/91721507/159482606-8b48a7dc-e2d7-44e2-9c54-34060e226a10.PNG)
+
+![uml d](https://user-images.githubusercontent.com/91721507/159482878-3f22a50c-a3b8-4a0a-9f14-3e0b73f8b73c.PNG)
 
 
 El código propuesto es el siguiente:
