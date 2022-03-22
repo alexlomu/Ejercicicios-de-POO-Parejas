@@ -16,8 +16,32 @@ class Palindromo:
 ```
 
 # Ejercicio b) Palíndromo - método de instancia
-Ahora, partiendo de el código que tenemos del apartado a hemos de añadir un atributo que se inicializará en el constructor, además crearemos una nueva función que pruebe si el atributo de la instancia es un palíndromo.
-
+Ahora, partiendo de el código que tenemos del apartado a hemos de añadir un atributo que se inicializará en el constructor, además crearemos una nueva función que pruebe si el atributo de la instancia es un palíndromo. El código propuesto es el siguiente:
+```
+class Palindromo:
+    global entrada
+    entrada = input("Qué atributo quieres añadir? ")
+    global lista
+    lista = []
+    def esPalindromo(entrada):
+        if entrada == entrada[::-1]:
+            return True
+        else:
+            return False
+    
+    
+    def test(entrada):
+        lista.append(entrada)
+        if entrada == entrada[::-1]:
+            print(True)
+            
+        else:
+            print(False) 
+        if len(lista) > 1:
+            eliminar = lista.pop()
+            eliminar = eliminar.upper()
+            print(eliminar)
+```
 
 # Ejercicio c) Puzzle
 En este ejercicio nos piden únicamente qué mensajes muestran el código que nos dan, los cuáles son los siguiente:
