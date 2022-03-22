@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if ejercicio == "a":
         entrada = input("Introduce que texto queres comprobar si es un palindromo: ")
         Palindromo.esPalindromo(entrada)
-    if ejercicio == "b":
+    elif ejercicio == "b":
         Palindromo.test(entrada)
-    if ejercicio == "d":
+    elif ejercicio == "d":
         Logger.Test.llamada()
